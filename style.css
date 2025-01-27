@@ -23,50 +23,25 @@ div {
     line-height: 100px;
 }
 
-.first_part_first_block {
-    float: left;
-}
-
-.first_part_second_block {
-    float: right;
-}
-
 .second_part_left_block {
-    float: left;
     margin-top: 10px;
 }
 
 .second_part_another_block {
-    float: right;
     margin-top: 10px;
     margin-right: 20px;
 }
 
-.third_part_left_block{
-    float: left;
-}
-
-.third_part_right_block{
-    float: right;
-}
-
-.fourth_part_first_block{
-    float: right;
-}
-
 .fourth_part_second_block{
-    float: right;
     height: 240px;
 }
 
 .fourth_part_third_block{
-    float: right;
     margin-top: -7.1%;
     margin-left: 70%;
 }
 
 .fiveth_part_first_block {
-    float: left;
     width: 240px;
     height: 240px;
     background-color: gray;
@@ -77,11 +52,18 @@ div {
 
 .fiveth_part_second_block,
 .fiveth_part_third_block {
-    float: right;
     height: 120px; 
     background-color: gray;
     margin-bottom: 10px; 
     text-align: center;
     line-height: 120px; 
     margin-right: 38%;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
 }
